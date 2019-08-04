@@ -150,7 +150,7 @@ class Commentator():
             winner = "Orange"
 
         if abs(self.teams[0].score - self.teams[1].score) >=4:
-            self.speak(f"Team {winner} has won today's match with a dominant performance.",10,1)
+            self.speak(f"Team {winner} has won today's match with a {self.dominantNames} performance.",10,1)
             #impressive victory
         else:
             #normal win message
